@@ -46,7 +46,7 @@ function Register() {
       }
       registerUser();
     }
-  }, [formErrors, formValues, isSubmit, navigate]);
+  }, [formErrors]);
   //update only when threre is change in formErrors
 
   if (currentUser !== null) {
